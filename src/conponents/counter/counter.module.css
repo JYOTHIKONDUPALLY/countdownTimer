@@ -1,0 +1,99 @@
+.container{
+text-align: center;
+
+}
+
+.img{
+    width:150px;
+    height:150px;
+}
+
+.font{
+    font-size: 20px;
+}
+.date{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.CardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:70vw;
+    margin: auto;
+    padding: 50px;
+}
+.card{
+    width:150px;
+    height:100px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 600;
+    background: rgb(95,189,255);
+background: linear-gradient(90deg, rgba(95,189,255,1) 16%, rgba(197,255,248,1) 70%);
+}
+
+
+.button{
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color:blueviolet;
+    font-weight: 600;
+    margin: 10px;
+    color:white;
+    }
+    .button:hover{
+        color:black;
+        background-color:violet;
+    }
+    
+@media only screen and (max-width: 1050px){
+    .img{
+        width:120px;
+        height:120px;
+    }
+    .font{
+        font-size: 16px;
+        margin-top: -20px;
+    }
+    .date{
+        font-size: 12px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .card{
+        width:100px;
+        height:75px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 12px;
+    }
+    .button{
+        border-radius: 5px;
+    padding: 7px 10px;
+    font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+ .CardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    width:80vw;
+    margin: auto;
+    padding: 20px;
+ }
+ .button{
+    border-radius: 5px;
+padding: 5px 8px;
+font-size: 12px;
+}
+}

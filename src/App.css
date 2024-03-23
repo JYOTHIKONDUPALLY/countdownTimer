@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0px !important;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("./utils/vecteezy_light-cyan-background-images-hd-pictures-and-wallpaper-for_15132103.jpg");
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
