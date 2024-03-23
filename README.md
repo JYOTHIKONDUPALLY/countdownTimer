@@ -1,1 +1,1 @@
-### Project Name: Countdown Timer
+## Project Name: Countdown Timer
