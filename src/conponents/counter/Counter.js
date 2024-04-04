@@ -42,6 +42,7 @@ const Counter = ({onReset}) => {
     }, [isRunning, targetDate]);
 
     const handleComplete = () => {
+        alert("Task completed")
         setIsRunning(false);
         setPlayNotification(true);
         playNotificationSound();
