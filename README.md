@@ -1,7 +1,7 @@
 # Project Name: CountDown Timer
 
 ## deployed link:
- [click here ](https://countdown-timer-2d15ozxp7-annem-jyothis-projects.vercel.app/?)
+ [click here ](https://countdown-timer-ghv2wlbeb-annem-jyothis-projects.vercel.app/)
 
 ## Description
 This project is a CountDown Timer that displays How much time is left for the event. It includes the features like input target time form , resume/pause and reset feature. It visualize the time left in the form of days hours minutes and seconds.
